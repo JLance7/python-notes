@@ -1,0 +1,14 @@
+{
+  "resource": "/passport",
+  "path": "/passport/",
+  "httpMethod": "POST",
+  "headers": {
+    "Authorization": "d59960665197a56037930ec6bea4daa6"
+  },
+  "queryStringParameters": {
+
+  },
+  "body": {
+  
+  }
+}
