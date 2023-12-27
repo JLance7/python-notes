@@ -4,3 +4,8 @@ python -m venv .venv
 pip install <package_name>
 deactivate
 ```
+or
+```bash
+pip install virtualenv
+virtualenv <name> # creates venv in cwd
+```

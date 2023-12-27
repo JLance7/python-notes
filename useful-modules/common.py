@@ -2,6 +2,8 @@ import time
 import random
 from dotenv import load_dotenv
 import os
+import sys
+
 
 load_dotenv()
 aws_prof = os.getenv('AWS_PROFILE')
@@ -29,3 +31,4 @@ end_time_min = end_time / 60
 if end_time_min < 1: end_time_min = 0
 end_time_sec = end_time % 60
 print('It took {:02}:{:02} seconds to run this code'.format(end_time_min, end_time_sec))
+sys.exit(0)
