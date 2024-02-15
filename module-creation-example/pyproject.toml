@@ -1,24 +1,14 @@
-[project]
-name = "test_package"
-version = "0.0.1"
-authors = [
-  { name="Example Author", email="author@example.com" },
-]
-description = "A small example package"
+[tool.poetry]
+name = "my_module"
+version = "0.1.0"
+description = ""
+authors = ["j"]
 readme = "README.md"
-requires-python = ">=3.8"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-]
-dependencies = [
 
-]
+[tool.poetry.dependencies]
+python = "^3.7"
 
-[project.urls]
-Homepage = "https://github.com/pypa/sampleproject"
-Issues = "https://github.com/pypa/sampleproject/issues"
 
-[tool.setuptools.packages.find]
-where = ["src"]
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
